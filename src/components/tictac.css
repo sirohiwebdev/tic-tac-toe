@@ -1,0 +1,13 @@
+.tictac {
+  border: 1px solid #ccc;
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-size: 8rem;
+  text-align: center;
+}
+.tictac:hover {
+  border: 1px solid #222;
+}

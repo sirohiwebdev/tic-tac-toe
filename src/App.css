@@ -1,22 +1,33 @@
-.App {
-  text-align: center;
+.container {
+  width: 452px;
+  height: 452px;
+  margin: 50px auto;
+  border: 1px solid #777;
+  background: #fff;
+}
+.modal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.winner-modal {
+  background: #fff;
+
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid grey;
+  padding: 3rem 1rem;
+  transform: translate(-50%, -50%);
 }
 
-.App-logo {
-  height: 40vmin;
+* {
+  box-sizing: border-box;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+body {
+  background: #f3f3f3;
 }
